@@ -1,17 +1,17 @@
 
 body {
     margin: 0;
+    padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;                       100% per the viewport height */            
+    height: 100vh;                      /* 100% per the viewport height */            
     background-color: hsl(0, 0%, 85%);
 }
 
 #calculator {
     max-width: 350px;
     margin: 0 auto;
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
@@ -20,7 +20,7 @@ body {
 
 #display {
     width: 89%;
-    padding: 89px;
+    padding: 20px;
     font-size: 3.5rem;
     text-align: left;
     border-radius: 15px;
