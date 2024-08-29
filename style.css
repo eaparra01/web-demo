@@ -1,9 +1,9 @@
 
 body {
     margin: 0;
-    display: flex;
+/*    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    */
     height: 100vh;                      /* 100% per the viewport height */            
     background-color: hsl(0, 0%, 85%);
 }
