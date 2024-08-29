@@ -1,15 +1,15 @@
 
 body {
     margin: 0;
-/*    display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;    */
-/*    height: 100vh;                       100% per the viewport height */            
+    align-items: center;
+    height: 100vh;                       100% per the viewport height */            
     background-color: hsl(0, 0%, 85%);
 }
 
 #calculator {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,8 +19,8 @@ body {
 }
 
 #display {
-    width: 92%;
-    padding: 20px;
+    width: 89%;
+    padding: 89px;
     font-size: 3.5rem;
     text-align: left;
     border-radius: 15px;
@@ -33,15 +33,15 @@ body {
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Have 4 columns 1 fractional unit, an even amount of space */
-    gap: 10px;
+    gap: 5px;
     padding: 25px;
 }
 
 
 /* Set-up the buttons */
 button {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 30px;
     border: none;
     background-color: hsl(0, 0%, 30%);
